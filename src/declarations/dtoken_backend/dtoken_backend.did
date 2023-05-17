@@ -1,0 +1,6 @@
+service : {
+  cb: (principal) -> (nat) query;
+  pao: () -> (text);
+  sym: () -> (text) query;
+  transfer: (principal, nat) -> (text);
+}
